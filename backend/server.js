@@ -25,8 +25,6 @@ app.post('/api/products', async (req, res) => {
 
 })
 
-app.get()
-
 app.delete('/api/products/:id', async (req, res) => {
     const {id} = req.params
     
